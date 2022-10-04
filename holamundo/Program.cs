@@ -11,7 +11,10 @@ namespace holamundo
         static void Main(string[] args)
         {
             String diego = "hola!";
-            Console.WriteLine(diego);    
+            Console.WriteLine(diego);
+
+            int edad = 25;
+            Console.WriteLine($"Tu edad es de {edad}");
         }
     }
 }
