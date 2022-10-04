@@ -10,7 +10,7 @@ namespace holamundo
     {
         static void Main(string[] args)
         {
-            String diego = "hola";
+            String diego = "hola!";
             Console.WriteLine(diego);    
         }
     }
