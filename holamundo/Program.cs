@@ -14,7 +14,11 @@ namespace holamundo
             Console.WriteLine(diego);
 
             int edad = 25;
-            Console.WriteLine($"Tu edad es de {edad}");
+            // Console.WriteLine($"Tu edad es de {edad}");
+            int alumnos = 24;
+            string curso = "DEINT";
+
+            Console.WriteLine("En la clase de {0} hay {1} alumnos", curso, alumnos);
         }
     }
 }
